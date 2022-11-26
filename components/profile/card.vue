@@ -25,7 +25,7 @@ export default defineComponent({
     const state = reactive({
       name: name ?? 'Hồ Trung Anh',
       job: job ?? 'Front-end developer',
-      location: location ?? 'DaNang, VietNam1112',
+      location: location ?? 'DaNang, VietNam',
     })
 
     return { ...toRefs(state) }
